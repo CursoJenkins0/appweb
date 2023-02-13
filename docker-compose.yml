@@ -19,7 +19,7 @@ services:
     environment: 
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: cdweb
-      MYSQL_USER: maroine
-      MYSQL_PASSWORD: maroine
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass
     ports:
       - 6033:3306
